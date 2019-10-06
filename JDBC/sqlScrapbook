@@ -1,0 +1,1 @@
+CREATE TABLE Person(id INT NOT NULL, firstname VARCHAR(20), lastname VARCHAR(20));
