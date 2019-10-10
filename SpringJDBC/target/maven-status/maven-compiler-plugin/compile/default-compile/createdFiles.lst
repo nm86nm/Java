@@ -1,0 +1,5 @@
+com\a\springjdbc\PersonsMapper.class
+com\a\springjdbc\dao\PersonsDAOImpl.class
+com\a\springjdbc\MainApp.class
+com\a\springjdbc\model\Persons.class
+com\a\springjdbc\dao\PersonsDAO.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	    <property name="url" value="jdbc:mysql://remotemysql.com:3306/paTJ1Vv8v4"/>
+	    <property name="username" value="paTJ1Vv8v4"/>
+	    <property name="password" value="eAce8Xpv65"/>
+	</bean>
+	
+	<bean id="personDAOImpl" class="com.a.springjdbc.dao.PersonDAOImpl">
+		<property name="dataSource" ref="dataSource"/>    
+	</bean>
+</beans>
